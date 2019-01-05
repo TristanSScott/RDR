@@ -1,0 +1,13 @@
+#!/bin/python
+
+#LED light (blink)
+#sudo python
+import RPi.GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18, GPIO.OUT)
+GPIO.output(18, True)
+while True:
+	print("light on")
+	time.sleep(180)
+	GPIO.output(18, False)
