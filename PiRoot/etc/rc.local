@@ -10,7 +10,7 @@
 # bits.
 #
 # By default this script does nothing.
-(sleep 10;python /bin/first_rest.py)&
+
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
