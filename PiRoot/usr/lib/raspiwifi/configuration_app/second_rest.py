@@ -15,7 +15,7 @@ def hello():
 
 @app.route("/Motor")
 def servohome():
-    return "What do you want to do with the servo? min | mid | max!"	
+    return "What do you want to do with the motor? open | close"	
 
 @app.route('/Motor/open', methods=['GET'])
 def motoropen():
