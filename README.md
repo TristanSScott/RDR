@@ -1,2 +1,2 @@
 # Real-time Distributed Robotics
-This is my school project
+This is my science fair project. 
